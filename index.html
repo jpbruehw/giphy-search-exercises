@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Giphy Party!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1 id="heading">Enter any keyword below to search for a Gif</h1>
+    <form action="" method="get" id="submit-form">
+      <input
+        type="text"
+        name="search"
+        id="queryInput"
+        placeholder="Enter anything..."
+      />
+      <input type="submit" id="submit-btn" />
+      <button id="clear">Clear Results</button>
+    </form>
+    <div id="results"></div>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

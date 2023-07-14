@@ -1,0 +1,30 @@
+body {
+  font-family: poppins;
+  background-color: blanchedalmond;
+}
+h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#submit-form input {
+  margin-right: 5px;
+}
+#results {
+  display: flex;
+  justify-content: flex-start;
+}
+.gif {
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+  margin: 5px;
+}
